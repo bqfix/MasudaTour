@@ -29,7 +29,7 @@ public class MyLocationRecyclerViewAdapter extends RecyclerView.Adapter<MyLocati
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.fragment_location, parent, false);
+                .inflate(R.layout.location_list, parent, false);
         return new ViewHolder(view);
     }
 
