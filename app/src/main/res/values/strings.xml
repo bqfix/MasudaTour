@@ -6,10 +6,37 @@
     <string name="ganesha">Ganesha</string>
     <string name="yagura">Yagura</string>
     <string name="kakinoki">Kakinoki</string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
+    <string name="saku">sAku</string>
+    <string name="saku_yakiniku">sAku Yakiniku</string>
+    <string name="yasumasa">Yasumasa Sushi</string>
+    <string name="tenshin">Tenshin</string>
+    <string name="kikkouya_udon">Kikkouya Udon</string>
+    <string name="ebisuken">Ebisuken</string>
+
+    <!--Restaurant Descriptions-->
+    <string name="sakuraya_descrip">Sakuraya</string>
+    <string name="ganesha_descrip">Ganesha</string>
+    <string name="yagura_descrip">Yagura</string>
+    <string name="kakinoki_descrip">Kakinoki</string>
+    <string name="saku_descrip">sAku</string>
+    <string name="saku_yakiniku_descrip">sAku Yakiniku</string>
+    <string name="yasumasa_descrip">Yasumasa Sushi</string>
+    <string name="tenshin_descrip">Tenshin</string>
+    <string name="kikkouya_udon_descrip">Kikkouya Udon</string>
+    <string name="ebisuken_descrip">Ebisuken</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Sightseeing Locations-->
+
+    <!--Sightseeing Descriptions-->
+
+    <!--Shopping Locations-->
+
+    <!--Shopping Descriptions-->
+
+    <!--Events-->
+
+    <!--Event Descriptions-->
 </resources>
