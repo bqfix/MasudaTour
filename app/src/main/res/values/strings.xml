@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Masuda Tour</string>
+
+    <!--Restaurant Locations-->
+    <string name="sakuraya">Sakuraya</string>
+    <string name="ganesha">Ganesha</string>
+    <string name="yagura">Yagura</string>
+    <string name="kakinoki">Kakinoki</string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/song_item_views"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/location_image"
+        android:layout_width="@dimen/picture_width"
+        android:layout_height="@dimen/location_item_height"
+        tools:src="@drawable/dogs" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/location_item_height"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="#000"
+            android:textSize="16sp"
+            tools:text="Dog Cafe" />
+
+
+            <TextView
+                android:id="@+id/location_description"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textSize="12sp"
+                tools:text="A lovely cafe to pet dogs" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
