@@ -3,7 +3,7 @@ package com.example.android.masudatour;
 public class Location {
 
     private String mLocationName;
-    private String mDescription;
+    private String mLocationDescription;
     private int[] mImageID;
 
     /** Constructor
@@ -13,7 +13,7 @@ public class Location {
      */
     public Location(String locationName, String description, int[] imageID) {
         this.mLocationName = locationName;
-        this.mDescription = description;
+        this.mLocationDescription = description;
         this.mImageID = imageID;
     }
 
@@ -22,8 +22,8 @@ public class Location {
         return mLocationName;
     }
 
-    public String getmDescription() {
-        return mDescription;
+    public String getLocationDescription() {
+        return mLocationDescription;
     }
 
     public int[] getImageID() {
