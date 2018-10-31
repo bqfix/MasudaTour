@@ -2,6 +2,7 @@ package com.example.android.masudatour;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,7 +64,7 @@ public class LocationFragment extends Fragment {
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(),locations);
 
         //Find Listview
-        ListView listView = (ListView) getActivity().findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         //Set adapter to ListView
         listView.setAdapter(locationAdapter);
