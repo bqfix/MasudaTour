@@ -23,7 +23,7 @@ public class LocationArrays {
                 new Location(context.getString(R.string.yasumasa), context.getString(R.string.yasumasa_descrip), new int[R.drawable.dogs]),
                 new Location(context.getString(R.string.tenshin), context.getString(R.string.tenshin_descrip), new int[R.drawable.dogs]),
                 new Location(context.getString(R.string.kikkouya_udon), context.getString(R.string.kikkouya_udon_descrip), new int[R.drawable.dogs]),
-                new Location(context.getString(R.string.ebisuken), context.getString(R.string.ebisuken_descrip), new int[R.drawable.dogs]),
+                new Location(context.getString(R.string.ebisuken), context.getString(R.string.ebisuken_descrip), new int[R.drawable.dogs])
         ));
 
         return restaurants;
