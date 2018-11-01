@@ -39,6 +39,8 @@
                 android:gravity="center_horizontal"
                 android:layout_gravity="center"
                 android:lines="2"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
                 android:ellipsize="end"
                 android:textSize="@dimen/descrip_text_size"
                 tools:text="A lovely cafe to pet dogs and love them forever because they're so fuzzy and adorable and who doesn't love dogs srsly" />
