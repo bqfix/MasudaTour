@@ -1,6 +1,9 @@
 package com.example.android.masudatour;
 
-public class Location {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class Location implements Parcelable {
 
     private String mLocationName;
     private String mLocationDescription;
@@ -29,4 +32,36 @@ public class Location {
     public int[] getImageID() {
         return mImageID;
     }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+
+    //Parcelable logic
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(this.mLocationName);
+        dest.writeString(this.mLocationDescription);
+        dest.writeIntArray(this.mImageID);
+    }
+
+    protected Location(Parcel in) {
+        this.mLocationName = in.readString();
+        this.mLocationDescription = in.readString();
+        this.mImageID = in.createIntArray();
+    }
+
+    public static final Parcelable.Creator<Location> CREATOR = new Parcelable.Creator<Location>() {
+        @Override
+        public Location createFromParcel(Parcel source) {
+            return new Location(source);
+        }
+
+        @Override
+        public Location[] newArray(int size) {
+            return new Location[size];
+        }
+    };
 }

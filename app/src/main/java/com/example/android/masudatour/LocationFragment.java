@@ -1,11 +1,13 @@
 package com.example.android.masudatour;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -64,10 +66,25 @@ public class LocationFragment extends Fragment {
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(),locations);
 
         //Find Listview
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        final ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         //Set adapter to ListView
         listView.setAdapter(locationAdapter);
+
+        //SetOnItemClickListener
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //Intent to go to DetailsActivity
+                Intent detailsIntent = new Intent(getActivity(),DetailsActivity.class);
+
+                //Add current location object to Intent to make accessible in DetailsActivity
+                detailsIntent.putExtra("location",locations.get(position));
+
+                //Execute Intent
+                startActivity(detailsIntent);
+            }
+        });
 
         return rootView;
     }
