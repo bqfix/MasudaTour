@@ -20,7 +20,7 @@ public class Location implements Parcelable {
      * @param hours of operation of the Location
      * @param url of the Location's site
      */
-    public Location(String locationName, String description, int[] imageID, String address, String hours, String geoLocation, String url) {
+    public Location(String locationName, String description, int[] imageID, String address, String hours, String url) {
         this.mLocationName = locationName;
         this.mLocationDescription = description;
         this.mImageID = imageID;
