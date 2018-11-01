@@ -88,40 +88,40 @@
     <string name="nanao_descrip">The ruins of Masuda\'s former castle, tucked away a mountain with a lot of stairs.  Has a nice view of the city.</string>
 
     <!--Sightseeing Addresses-->
-    <string name="manyo_address">Manyo Park</string>
-    <string name="kakinomoto_address">Kakinomoto Shrine</string>
-    <string name="banryu_address">Banryu Lake</string>
-    <string name="grand_toit_address">Grand Toit</string>
-    <string name="ikoji_address">Ikoji Temple</string>
-    <string name="takatsu_river_address">Takatsu River</string>
-    <string name="mito_onsen_address">Mito Onsen</string>
-    <string name="hikimi_gorge_address">Hikimi Gorge</string>
-    <string name="tsuchida_address">Tsuchida Kaigan</string>
-    <string name="nanao_address">Nanao-jo Ruins</string>
+    <string name="manyo_address">Japan, 698-0041 Shimane-ken, Masuda-shi, Takatsuchō</string>
+    <string name="kakinomoto_address">Japan, 698-0041 Shimane-ken, Masuda-shi, 2612 1</string>
+    <string name="banryu_address">Japan, 698-0041 Shimane-ken, Masuda-shi, Takatsuchō</string>
+    <string name="grand_toit_address">5-15 Ariakecho, Masuda, Shimane Prefecture 698-0022, Japan</string>
+    <string name="ikoji_address">4-29 Somebachō, Masuda-shi, Shimane-ken 698-0011, Japan</string>
+    <string name="takatsu_river_address">Origin at Kakinokimura Shimosu, Yoshika, Kanoashi District, Shimane Prefecture 699-5305, Japan</string>
+    <string name="mito_onsen_address">630-3 Mitochō Uzugawa, Masuda-shi, Shimane-ken 698-0202, Japan</string>
+    <string name="hikimi_gorge_address">Hikimicho Hikimi, Masuda, Shimane Prefecture 698-1211, Japan</string>
+    <string name="tsuchida_address">Nishihirabaracho, Masuda, Shimane Prefecture 699-3506, Japan</string>
+    <string name="nanao_address">Japan, 698-0017 Shimane-ken, Masuda-shi, Nanaochō, 4-59</string>
 
     <!--Sightseeing Hours-->
-    <string name="manyo_hours">Manyo Park</string>
-    <string name="kakinomoto_hours">Kakinomoto Shrine</string>
-    <string name="banryu_hours">Banryu Lake</string>
-    <string name="grand_toit_hours">Grand Toit</string>
-    <string name="ikoji_hours">Ikoji Temple</string>
-    <string name="takatsu_river_hours">Takatsu River</string>
-    <string name="mito_onsen_hours">Mito Onsen</string>
-    <string name="hikimi_gorge_hours">Hikimi Gorge</string>
-    <string name="tsuchida_hours">Tsuchida Kaigan</string>
-    <string name="nanao_hours">Nanao-jo Ruins</string>
+    <string name="manyo_hours">Open 24 hours</string>
+    <string name="kakinomoto_hours">Open 24 hours</string>
+    <string name="banryu_hours">Open 24 hours</string>
+    <string name="grand_toit_hours">Thursday-Tuesday\n8:45AM-10PM</string>
+    <string name="ikoji_hours">8:30AM-5PM</string>
+    <string name="takatsu_river_hours">Open 24 hours</string>
+    <string name="mito_onsen_hours">5AM-9PM</string>
+    <string name="hikimi_gorge_hours">Open 24 hours</string>
+    <string name="tsuchida_hours">Open 24 hours</string>
+    <string name="nanao_hours">Open 24 hours</string>
 
     <!--Sightseeing URL-->
-    <string name="manyo_url">Manyo Park</string>
-    <string name="kakinomoto_url">Kakinomoto Shrine</string>
-    <string name="banryu_url">Banryu Lake</string>
-    <string name="grand_toit_url">Grand Toit</string>
-    <string name="ikoji_url">Ikoji Temple</string>
-    <string name="takatsu_river_url">Takatsu River</string>
-    <string name="mito_onsen_url">Mito Onsen</string>
-    <string name="hikimi_gorge_url">Hikimi Gorge</string>
-    <string name="tsuchida_url">Tsuchida Kaigan</string>
-    <string name="nanao_url">Nanao-jo Ruins</string>
+    <string name="manyo_url">http://ohata.jp/manyou/</string>
+    <string name="kakinomoto_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=217</string>
+    <string name="banryu_url">https://www.pref.shimane.lg.jp/infra/nature/shizen/shimane/shimane_kouen/kenritu-shizen-koen/banryuko/</string>
+    <string name="grand_toit_url">http://www.grandtoit.jp/</string>
+    <string name="ikoji_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=26</string>
+    <string name="takatsu_river_url">https://www.kankou-shimane.com/mag/8019.html</string>
+    <string name="mito_onsen_url">http://mito-onsen.com/</string>
+    <string name="hikimi_gorge_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=58</string>
+    <string name="tsuchida_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=329</string>
+    <string name="nanao_url">https://kojodan.jp/castle/991/</string>
 
 
     <!--Shopping Locations-->
@@ -149,40 +149,40 @@
     <string name="meirindo_descrip">A large bookstore near the main post office of Masuda.  One of the few in Masuda.</string>
 
     <!--Shopping Addresses-->
-    <string name="kinuya_address">Kinuya</string>
-    <string name="youme_town_address">Youme Town</string>
-    <string name="aeon_address">Aeon</string>
-    <string name="juntendo_address">Juntendo</string>
-    <string name="dorothy_address">Dorothy</string>
-    <string name="bunkado_address">Bunkado</string>
-    <string name="uniqlo_address">UNIQLO</string>
-    <string name="geo_address">GEO</string>
-    <string name="yamada_denki_address">Yamada Denki</string>
-    <string name="meirindo_address">Meirindo</string>
+    <string name="kinuya_address">Japan, 698-0023 Shimane-ken, Masuda-shi, Tokiwachō, 4-38</string>
+    <string name="youme_town_address">7 Chome-21-12 Takatsu, Masuda-shi, Shimane-ken 698-0041, Japan</string>
+    <string name="aeon_address">Japan, 698-8505 Shimane Prefecture, Masuda, Otoyoshicho, 95−10</string>
+    <string name="juntendo_address">7 Chome-21-10 Takatsu, Masuda-shi, Shimane-ken 698-0041, Japan</string>
+    <string name="dorothy_address">7 Chome-22-7 Takatsu, Masuda-shi, Shimane-ken 698-0041, Japan</string>
+    <string name="bunkado_address">4-7 Akebonohonmachi, Masuda-shi, Shimane-ken 698-0026, Japan</string>
+    <string name="uniqlo_address">7 Chome-18-20 Takatsu, Masuda-shi, Shimane-ken 698-0041, Japan</string>
+    <string name="geo_address">280-2 Nakayoshidachō, Masuda-shi, Shimane-ken 698-0042, Japan</string>
+    <string name="yamada_denki_address">Japan, 698-0041 Shimane-ken, Masuda-shi, Takatsu, 7 Chome−4-5</string>
+    <string name="meirindo_address">9-4 Akebono Higashimachi, Masuda-shi, Shimane-ken 698-0027, Japan</string>
 
     <!--Shopping Hours-->
-    <string name="kinuya_hours">Kinuya</string>
-    <string name="youme_town_hours">Youme Town</string>
-    <string name="aeon_hours">Aeon</string>
-    <string name="juntendo_hours">Juntendo</string>
-    <string name="dorothy_hours">Dorothy</string>
-    <string name="bunkado_hours">Bunkado</string>
-    <string name="uniqlo_hours">UNIQLO</string>
-    <string name="geo_hours">GEO</string>
-    <string name="yamada_denki_hours">Yamada Denki</string>
-    <string name="meirindo_hours">Meirindo</string>
+    <string name="kinuya_hours">9AM-8PM</string>
+    <string name="youme_town_hours">8:30AM-9PM</string>
+    <string name="aeon_hours">8AM-9:30PM</string>
+    <string name="juntendo_hours">8:30AM-8PM</string>
+    <string name="dorothy_hours">10AM-5PM</string>
+    <string name="bunkado_hours">9AM-6:30PM</string>
+    <string name="uniqlo_hours">11AM-8PM</string>
+    <string name="geo_hours">9AM-12AM</string>
+    <string name="yamada_denki_hours">10:30AM-9PM</string>
+    <string name="meirindo_hours">10AM-10PM</string>
 
     <!--Shopping URLs-->
-    <string name="kinuya_url">Kinuya</string>
-    <string name="youme_town_url">Youme Town</string>
-    <string name="aeon_url">Aeon</string>
-    <string name="juntendo_url">Juntendo</string>
-    <string name="dorothy_url">Dorothy</string>
-    <string name="bunkado_url">Bunkado</string>
-    <string name="uniqlo_url">UNIQLO</string>
-    <string name="geo_url">GEO</string>
-    <string name="yamada_denki_url">Yamada Denki</string>
-    <string name="meirindo_url">Meirindo</string>
+    <string name="kinuya_url">http://www.kinuya.co.jp/shop/index.htm</string>
+    <string name="youme_town_url">https://www.izumi.jp/tenpo/masuda/</string>
+    <string name="aeon_url">https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E7%9B%8A%E7%94%B0%E5%BA%97/</string>
+    <string name="juntendo_url">http://www.juntendo.co.jp/</string>
+    <string name="dorothy_url">https://tabelog.com/shimane/A3204/A320401/32002472/</string>
+    <string name="bunkado_url">http://ftp.bunkadoweb.co.jp/news/news_0625.html</string>
+    <string name="uniqlo_url">https://www.uniqlo.com/jp/shop/info/#10101036</string>
+    <string name="geo_url">https://geo-online.co.jp/store/02420/</string>
+    <string name="yamada_denki_url">http://www.yamada-denki.jp/store/contents/?d=1186</string>
+    <string name="meirindo_url">http://www.meirindo.co.jp/store/shimane/masuda.html</string>
 
 
     <!--Events-->
@@ -210,39 +210,39 @@
     <string name="masuda_local_goods_descrip">In the middle of the city, local companies and stores come together to display their goods.  One of the final festival-type events before winter.</string>
 
     <!--Event Addresses-->
-    <string name="daffodil_park_address">To-on Daffodil Park</string>
-    <string name="super_kagura_address">Super Kagura Festival</string>
-    <string name="masuda_matsuri_address">Masuda Festival</string>
-    <string name="manyo_matsuri_address">Manyo Festival</string>
-    <string name="mito_fireflies_address">Mito Firefly Festival</string>
-    <string name="gionsai_address">Gion Festival</string>
-    <string name="suigosai_address">Masuda Water Festival</string>
-    <string name="hassaku_matsuri_address">Hassaku Festival</string>
-    <string name="airport_marathon_address">Hagi-Iwami Airport Marathon</string>
-    <string name="masuda_local_goods_address">Masuda Local Goods Festival</string>
+    <string name="daffodil_park_address">Nishihirabaracho, Masuda, Shimane Prefecture 699-3506, Japan</string>
+    <string name="super_kagura_address">5-15 Ariakecho, Masuda, Shimane Prefecture 698-0022, Japan</string>
+    <string name="masuda_matsuri_address">37 Ekimaechō, Masuda-shi, Shimane-ken 698-0024, Japan</string>
+    <string name="manyo_matsuri_address">Japan, 698-0041 Shimane-ken, Masuda-shi, Takatsuchō</string>
+    <string name="mito_fireflies_address">630-3 Mitochō Uzugawa, Masuda-shi, Shimane-ken 698-0202, Japan</string>
+    <string name="gionsai_address">7-17 Honmachi, Masuda-shi, Shimane-ken 698-0005, Japan</string>
+    <string name="suigosai_address">1 Chome-2-15 Takatsu, Masuda-shi, Shimane-ken 698-0041, Japan</string>
+    <string name="hassaku_matsuri_address">2 Chome-2-14 Takatsu, Masuda-shi, Shimane-ken 698-0041, Japan</string>
+    <string name="airport_marathon_address">Japan, 698-0051 Shimane-ken, Masuda-shi, Uchidachō, I-597</string>
+    <string name="masuda_local_goods_address">11-26 Motomachi, Masuda-shi, Shimane-ken 698-0033, Japan</string>
 
     <!--Event Hours-->
-    <string name="daffodil_park_hours">To-on Daffodil Park</string>
-    <string name="super_kagura_hours">Super Kagura Festival</string>
-    <string name="masuda_matsuri_hours">Masuda Festival</string>
-    <string name="manyo_matsuri_hours">Manyo Festival</string>
-    <string name="mito_fireflies_hours">Mito Firefly Festival</string>
-    <string name="gionsai_hours">Gion Festival</string>
-    <string name="suigosai_hours">Masuda Water Festival</string>
-    <string name="hassaku_matsuri_hours">Hassaku Festival</string>
-    <string name="airport_marathon_hours">Hagi-Iwami Airport Marathon</string>
-    <string name="masuda_local_goods_hours">Masuda Local Goods Festival</string>
+    <string name="daffodil_park_hours">February</string>
+    <string name="super_kagura_hours">First Sunday of April</string>
+    <string name="masuda_matsuri_hours">Third Sunday of April</string>
+    <string name="manyo_matsuri_hours">April 29th</string>
+    <string name="mito_fireflies_hours">Second Saturday of June</string>
+    <string name="gionsai_hours">Second or Third weekend of July</string>
+    <string name="suigosai_hours">First Saturday of August</string>
+    <string name="hassaku_matsuri_hours">September 1st</string>
+    <string name="airport_marathon_hours">Third Sunday of October</string>
+    <string name="masuda_local_goods_hours">Early November</string>
 
     <!--Event URLs-->
-    <string name="daffodil_park_url">To-on Daffodil Park</string>
-    <string name="super_kagura_url">Super Kagura Festival</string>
-    <string name="masuda_matsuri_url">Masuda Festival</string>
-    <string name="manyo_matsuri_url">Manyo Festival</string>
-    <string name="mito_fireflies_url">Mito Firefly Festival</string>
-    <string name="gionsai_url">Gion Festival</string>
-    <string name="suigosai_url">Masuda Water Festival</string>
-    <string name="hassaku_matsuri_url">Hassaku Festival</string>
-    <string name="airport_marathon_url">Hagi-Iwami Airport Marathon</string>
-    <string name="masuda_local_goods_url">Masuda Local Goods Festival</string>
+    <string name="daffodil_park_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=24</string>
+    <string name="super_kagura_url">http://www.iwami.or.jp/masudalc/activity/kagura/10.html</string>
+    <string name="masuda_matsuri_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=222&amp;cat_id=9</string>
+    <string name="manyo_matsuri_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=225</string>
+    <string name="mito_fireflies_url">http://mitocho-kankou.jp/page2139/</string>
+    <string name="gionsai_url">http://mgf.nomaki.jp/</string>
+    <string name="suigosai_url">https://sp.jorudan.co.jp/hanabi/spot_87429.html</string>
+    <string name="hassaku_matsuri_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=236</string>
+    <string name="airport_marathon_url">http://www.airport-marathon.jp/</string>
+    <string name="masuda_local_goods_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=231</string>
 
 </resources>
