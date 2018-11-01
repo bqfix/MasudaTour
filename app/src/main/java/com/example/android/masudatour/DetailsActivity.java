@@ -1,9 +1,12 @@
 package com.example.android.masudatour;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,7 +24,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         //Get location from Intent
         Intent detailsIntent = getIntent();
-        Location location = detailsIntent.getParcelableExtra("location");
+        final Location location = detailsIntent.getParcelableExtra("location");
 
         //Set details page to reflect location's details
         ImageView detailsMainImage = (ImageView) findViewById(R.id.details_main_image);
@@ -38,6 +41,15 @@ public class DetailsActivity extends AppCompatActivity {
 
         TextView detailsHours = (TextView) findViewById(R.id.details_hours);
         detailsHours.setText(location.getHours());
+
+        Button detailsWebsite = (Button) findViewById(R.id.details_website);
+        detailsWebsite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent websiteIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(location.getmURL()));
+                startActivity(websiteIntent);
+            }
+        });
 
     }
 }
