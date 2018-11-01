@@ -25,6 +25,44 @@
     <string name="kikkouya_udon_descrip">The best udon in Masuda.  Wide variety of choices, and also has a challenge where if you can eat a bowl 4 times the size of normal, you get it for free!</string>
     <string name="meiju_descrip">Taiwanese cooking, lunch prices are more reasonable than dinner prices, but either way guaranteed to be MORE than enough food to satisfy you.</string>
 
+    <!--Restaurant Addresses-->
+    <string name="sakuraya_address">667 Honmatagacho, Masuda, Shimane Prefecture 699-5122, Japan</string>
+    <string name="ganesha_address">Japan, Shimane-ken, Masuda-shi, Otoyoshichō, 335-8</string>
+    <string name="yagura_address">23-9 Ekimaecho, Masuda, Shimane Prefecture 698-0024, Japan</string>
+    <string name="kakinoki_address">2582-10 Takatsucho, Masuda, Shimane Prefecture 698-0041, Japan</string>
+    <string name="saku_address">20-22 Ekimaechō, Masuda-shi, Shimane-ken 698-0024, Japan</string>
+    <string name="saku_yakiniku_address">9-12 Akebono Nishimachi, Masuda-shi, Shimane-ken 698-0025, Japan</string>
+    <string name="yasumasa_address">25-35 Ekimaechō, Masuda-shi, Shimane-ken 698-0024, Japan</string>
+    <string name="tenshin_address">1-4 Doicho, Masuda, Shimane Prefecture 698-0016, Japan</string>
+    <string name="kikkouya_udon_address">97-1 Otoyoshichō, Masuda-shi, Shimane-ken 698-0003, Japan</string>
+    <string name="meiju_address">Japan, Shimane-ken, Masuda-shi, Ekimaechō, 10-20</string>
+
+    <!--Restaurant Hours-->
+    <string name="sakuraya_hours">Wednesday-Friday\n11AM - 2PM\n5-7:30PM</string>
+    <string name="ganesha_hours">11AM-12:45PM\n5-9:45PM</string>
+    <string name="yagura_hours">Tuesday-Sunday\n6PM-12AM</string>
+    <string name="kakinoki_hours">Monday-Saturday\n11AM-21:30PM</string>
+    <string name="saku_hours">Thursday-Tuesday\n11:30AM-2PM\n6-11PM</string>
+    <string name="saku_yakiniku_hours">Thursday-Tuesday\n11:30AM-3PM\n6-11PM</string>
+    <string name="yasumasa_hours">Wednesday-Monday\n6PM-1AM</string>
+    <string name="tenshin_hours">Thursday-Tuesday\n11AM-2PM\n5-9:30PM</string>
+    <string name="kikkouya_udon_hours">11AM-3PM\n5-9PM</string>
+    <string name="meiju_hours">11AM-2:30PM\n5-11:30PM</string>
+
+
+    <!--Restaurant URL-->
+    <string name="sakuraya_url">https://tabelog.com/shimane/A3204/A320401/32000321/</string>
+    <string name="ganesha_url">https://tabelog.com/shimane/A3204/A320401/32005294/</string>
+    <string name="yagura_url">https://tabelog.com/shimane/A3204/A320401/32000493/</string>
+    <string name="kakinoki_url">https://tabelog.com/shimane/A3204/A320401/32004586/</string>
+    <string name="saku_url">https://tabelog.com/shimane/A3204/A320401/32002444/</string>
+    <string name="saku_yakiniku_url">https://tabelog.com/shimane/A3204/A320401/32005179/</string>
+    <string name="yasumasa_url">https://tabelog.com/shimane/A3204/A320401/32000710/</string>
+    <string name="tenshin_url">https://tabelog.com/shimane/A3204/A320401/32001922/</string>
+    <string name="kikkouya_udon_url">https://tabelog.com/shimane/A3204/A320401/32003713/</string>
+    <string name="meiju_url">https://tabelog.com/shimane/A3204/A320401/32004672/</string>
+
+
     <!--Sightseeing Locations-->
     <string name="manyo">Manyo Park</string>
     <string name="kakinomoto">Kakinomoto Shrine</string>
@@ -48,6 +86,43 @@
     <string name="hikimi_gorge_descrip">A long gorge running through the mountains of Masuda.  Best avoided in the winter due to slippery conditions, but especially beautiful in the fall due to the many leaves.</string>
     <string name="tsuchida_descrip">The most beautiful beach in Masuda.  About 15 minutes north of the inner city, sea barriers prevent strong waves, meaning a calm, saltwater pool that is perfectly clear.</string>
     <string name="nanao_descrip">The ruins of Masuda\'s former castle, tucked away a mountain with a lot of stairs.  Has a nice view of the city.</string>
+
+    <!--Sightseeing Addresses-->
+    <string name="manyo_address">Manyo Park</string>
+    <string name="kakinomoto_address">Kakinomoto Shrine</string>
+    <string name="banryu_address">Banryu Lake</string>
+    <string name="grand_toit_address">Grand Toit</string>
+    <string name="ikoji_address">Ikoji Temple</string>
+    <string name="takatsu_river_address">Takatsu River</string>
+    <string name="mito_onsen_address">Mito Onsen</string>
+    <string name="hikimi_gorge_address">Hikimi Gorge</string>
+    <string name="tsuchida_address">Tsuchida Kaigan</string>
+    <string name="nanao_address">Nanao-jo Ruins</string>
+
+    <!--Sightseeing Hours-->
+    <string name="manyo_hours">Manyo Park</string>
+    <string name="kakinomoto_hours">Kakinomoto Shrine</string>
+    <string name="banryu_hours">Banryu Lake</string>
+    <string name="grand_toit_hours">Grand Toit</string>
+    <string name="ikoji_hours">Ikoji Temple</string>
+    <string name="takatsu_river_hours">Takatsu River</string>
+    <string name="mito_onsen_hours">Mito Onsen</string>
+    <string name="hikimi_gorge_hours">Hikimi Gorge</string>
+    <string name="tsuchida_hours">Tsuchida Kaigan</string>
+    <string name="nanao_hours">Nanao-jo Ruins</string>
+
+    <!--Sightseeing URL-->
+    <string name="manyo_url">Manyo Park</string>
+    <string name="kakinomoto_url">Kakinomoto Shrine</string>
+    <string name="banryu_url">Banryu Lake</string>
+    <string name="grand_toit_url">Grand Toit</string>
+    <string name="ikoji_url">Ikoji Temple</string>
+    <string name="takatsu_river_url">Takatsu River</string>
+    <string name="mito_onsen_url">Mito Onsen</string>
+    <string name="hikimi_gorge_url">Hikimi Gorge</string>
+    <string name="tsuchida_url">Tsuchida Kaigan</string>
+    <string name="nanao_url">Nanao-jo Ruins</string>
+
 
     <!--Shopping Locations-->
     <string name="kinuya">Kinuya</string>
@@ -73,6 +148,43 @@
     <string name="yamada_denki_descrip">A large electronics store, has everything from games and computer goods to home appliances and TVs.  Does price-matching, if you can find it cheaper online.</string>
     <string name="meirindo_descrip">A large bookstore near the main post office of Masuda.  One of the few in Masuda.</string>
 
+    <!--Shopping Addresses-->
+    <string name="kinuya_address">Kinuya</string>
+    <string name="youme_town_address">Youme Town</string>
+    <string name="aeon_address">Aeon</string>
+    <string name="juntendo_address">Juntendo</string>
+    <string name="dorothy_address">Dorothy</string>
+    <string name="bunkado_address">Bunkado</string>
+    <string name="uniqlo_address">UNIQLO</string>
+    <string name="geo_address">GEO</string>
+    <string name="yamada_denki_address">Yamada Denki</string>
+    <string name="meirindo_address">Meirindo</string>
+
+    <!--Shopping Hours-->
+    <string name="kinuya_hours">Kinuya</string>
+    <string name="youme_town_hours">Youme Town</string>
+    <string name="aeon_hours">Aeon</string>
+    <string name="juntendo_hours">Juntendo</string>
+    <string name="dorothy_hours">Dorothy</string>
+    <string name="bunkado_hours">Bunkado</string>
+    <string name="uniqlo_hours">UNIQLO</string>
+    <string name="geo_hours">GEO</string>
+    <string name="yamada_denki_hours">Yamada Denki</string>
+    <string name="meirindo_hours">Meirindo</string>
+
+    <!--Shopping URLs-->
+    <string name="kinuya_url">Kinuya</string>
+    <string name="youme_town_url">Youme Town</string>
+    <string name="aeon_url">Aeon</string>
+    <string name="juntendo_url">Juntendo</string>
+    <string name="dorothy_url">Dorothy</string>
+    <string name="bunkado_url">Bunkado</string>
+    <string name="uniqlo_url">UNIQLO</string>
+    <string name="geo_url">GEO</string>
+    <string name="yamada_denki_url">Yamada Denki</string>
+    <string name="meirindo_url">Meirindo</string>
+
+
     <!--Events-->
     <string name="daffodil_park">To-on Daffodil Park</string>
     <string name="super_kagura">Super Kagura Festival</string>
@@ -96,5 +208,41 @@
     <string name="hassaku_matsuri_descrip">The last festival of the summer.  Features horseback archery throughout the day, and a large number of booths throughout the evening.  Kagura happens in front of Kakinomoto Shrine.</string>
     <string name="airport_marathon_descrip">Masuda\'s claim to fame.  The only marathon event in Japan that allows you to run on an airport runway.  Has different length runs for everyone, capped off with a large festival at the finish line.</string>
     <string name="masuda_local_goods_descrip">In the middle of the city, local companies and stores come together to display their goods.  One of the final festival-type events before winter.</string>
+
+    <!--Event Addresses-->
+    <string name="daffodil_park_address">To-on Daffodil Park</string>
+    <string name="super_kagura_address">Super Kagura Festival</string>
+    <string name="masuda_matsuri_address">Masuda Festival</string>
+    <string name="manyo_matsuri_address">Manyo Festival</string>
+    <string name="mito_fireflies_address">Mito Firefly Festival</string>
+    <string name="gionsai_address">Gion Festival</string>
+    <string name="suigosai_address">Masuda Water Festival</string>
+    <string name="hassaku_matsuri_address">Hassaku Festival</string>
+    <string name="airport_marathon_address">Hagi-Iwami Airport Marathon</string>
+    <string name="masuda_local_goods_address">Masuda Local Goods Festival</string>
+
+    <!--Event Hours-->
+    <string name="daffodil_park_hours">To-on Daffodil Park</string>
+    <string name="super_kagura_hours">Super Kagura Festival</string>
+    <string name="masuda_matsuri_hours">Masuda Festival</string>
+    <string name="manyo_matsuri_hours">Manyo Festival</string>
+    <string name="mito_fireflies_hours">Mito Firefly Festival</string>
+    <string name="gionsai_hours">Gion Festival</string>
+    <string name="suigosai_hours">Masuda Water Festival</string>
+    <string name="hassaku_matsuri_hours">Hassaku Festival</string>
+    <string name="airport_marathon_hours">Hagi-Iwami Airport Marathon</string>
+    <string name="masuda_local_goods_hours">Masuda Local Goods Festival</string>
+
+    <!--Event URLs-->
+    <string name="daffodil_park_url">To-on Daffodil Park</string>
+    <string name="super_kagura_url">Super Kagura Festival</string>
+    <string name="masuda_matsuri_url">Masuda Festival</string>
+    <string name="manyo_matsuri_url">Manyo Festival</string>
+    <string name="mito_fireflies_url">Mito Firefly Festival</string>
+    <string name="gionsai_url">Gion Festival</string>
+    <string name="suigosai_url">Masuda Water Festival</string>
+    <string name="hassaku_matsuri_url">Hassaku Festival</string>
+    <string name="airport_marathon_url">Hagi-Iwami Airport Marathon</string>
+    <string name="masuda_local_goods_url">Masuda Local Goods Festival</string>
 
 </resources>
