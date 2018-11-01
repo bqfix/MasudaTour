@@ -16,9 +16,9 @@ public class LocationFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0: return LocationFragment.newInstance("restaurants");
-            case 1: return LocationFragment.newInstance("restaurants");
-            case 2: return LocationFragment.newInstance("restaurants");
-            case 3: return LocationFragment.newInstance("restaurants");
+            case 1: return LocationFragment.newInstance("sightseeing");
+            case 2: return LocationFragment.newInstance("shopping");
+            case 3: return LocationFragment.newInstance("events");
             default: return null;
         }
     }

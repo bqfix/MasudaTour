@@ -53,11 +53,11 @@ public class LocationFragment extends Fragment {
         final ArrayList<Location> locations;
         String arrayChoice = mSubject;
         switch (arrayChoice) {
-            case "restaurants":
-                locations = LocationArrays.getRestaurants(getActivity());
-                break;
-            default:
-                locations = null;
+            case "restaurants": locations = LocationArrays.getRestaurants(getActivity()); break;
+            case "sightseeing": locations = LocationArrays.getSightseeing(getActivity()); break;
+            case "shopping": locations = LocationArrays.getShopping(getActivity()); break;
+            case "events": locations = LocationArrays.getEvents(getActivity()); break;
+            default: locations = null;
         }
 
         //Create LocationAdapter
