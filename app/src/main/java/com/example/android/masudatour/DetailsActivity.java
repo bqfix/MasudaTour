@@ -13,6 +13,9 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
+        //Add up functionality
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         //Get location from Intent
         Intent detailsIntent = getIntent();
         Location location = detailsIntent.getParcelableExtra("location");
