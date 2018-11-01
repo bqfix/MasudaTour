@@ -11,32 +11,90 @@
     <string name="yasumasa">Yasumasa Sushi</string>
     <string name="tenshin">Tenshin</string>
     <string name="kikkouya_udon">Kikkouya Udon</string>
-    <string name="ebisuken">Ebisuken</string>
+    <string name="meiju">Meiju</string>
 
     <!--Restaurant Descriptions-->
-    <string name="sakuraya_descrip">Sakuraya</string>
-    <string name="ganesha_descrip">Ganesha</string>
-    <string name="yagura_descrip">Yagura</string>
-    <string name="kakinoki_descrip">Kakinoki</string>
-    <string name="saku_descrip">sAku</string>
-    <string name="saku_yakiniku_descrip">sAku Yakiniku</string>
-    <string name="yasumasa_descrip">Yasumasa Sushi</string>
-    <string name="tenshin_descrip">Tenshin</string>
-    <string name="kikkouya_udon_descrip">Kikkouya Udon</string>
-    <string name="ebisuken_descrip">Ebisuken</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sakuraya_descrip">An okonomiyaki (Japanese pancake) restaurant nestled in the mountains of Masuda.  Gigantic, cheap, and filling.  Owned and managed by a gentleman who studied in Hiroshima to learn the art of okonomiyaki.</string>
+    <string name="ganesha_descrip">Masuda\'s only Indian curry restaurant.  Choose your spiciness level, and enjoy a wide variety of curries.  Friendly staff, and free refills on naan bread.</string>
+    <string name="yagura_descrip">A small hole in the wall restaurant near Masuda Station.  Run by two older women, who make the best food in Masuda.  Meat and fish abound, along with standard bar food.  Try the tori-nanban and yakisoba!</string>
+    <string name="kakinoki_descrip">Seaside cafe with a beautiful view.  Fairly expensive food with somewhat smaller portions.  Atmosphere is second to none, however.  Recommended for dates or nice lunches.</string>
+    <string name="saku_descrip">Standard bar, with good food and a distinctively American atmosphere.  Expensive at night, but excellent deals for lunch, with lunch sets for about 900 yen, complete with dessert/drink bar.</string>
+    <string name="saku_yakiniku_descrip">The Korean BBQ branch of sAku.  The most reasonably priced yakiniku restaurant in Masuda, and the quality doesn\'t suffer for it.  Still, expect 2000 yen for dinner.</string>
+    <string name="yasumasa_descrip">Masuda\'s best sushi-go-round restaurant.  Slightly more expensive than other options, but the quality makes up for it.  Order the ebi-fry-maki (it\'s a secret menu item.)</string>
+    <string name="tenshin_descrip">A standard set-meal restaurant.  Specializes in Chinese food, but has options for most anyone.  Reasonably priced.</string>
+    <string name="kikkouya_udon_descrip">The best udon in Masuda.  Wide variety of choices, and also has a challenge where if you can eat a bowl 4 times the size of normal, you get it for free!</string>
+    <string name="meiju_descrip">Taiwanese cooking, lunch prices are more reasonable than dinner prices, but either way guaranteed to be MORE than enough food to satisfy you.</string>
 
     <!--Sightseeing Locations-->
+    <string name="manyo">Manyo Park</string>
+    <string name="kakinomoto">Kakinomoto Shrine</string>
+    <string name="banryu">Banryu Lake</string>
+    <string name="grand_toit">Grand Toit</string>
+    <string name="ikoji">Ikoji Temple</string>
+    <string name="takatsu_river">Takatsu River</string>
+    <string name="mito_onsen">Mito Onsen</string>
+    <string name="hikimi_gorge">Hikimi Gorge</string>
+    <string name="tsuchida">Tsuchida Kaigan</string>
+    <string name="nanao">Nanao-jo Ruins</string>
 
     <!--Sightseeing Descriptions-->
+    <string name="manyo_descrip">Prefectural park that covers a large part of the Takatsu area.  Beautiful views of Masuda, as well as a kid\'s park and nature walks abound.</string>
+    <string name="kakinomoto_descrip">One of Masuda\'s most popular shrines, based off the figure Kakinomoto no Hitomaro.  Conveniently located next to Manyo Park.</string>
+    <string name="banryu_descrip">A large lake, teeming with koi, located directly next to Manyo Park.  Rental boats are available.</string>
+    <string name="grand_toit_descrip">Masuda\'s premiere arts center.  Complete with two large auditoriums that air movies and concerts and such, along with an art museum that has rotating exhibits every season.  Beautiful reflecting pool, as well.</string>
+    <string name="ikoji_descrip">A temple located in the eastern part of central Masuda.  Has a large sakura tree that blooms in the spring, is a wonderful shade of green in the summer, has lovely leaf colors in the fall, and becomes a winter wonderland at the end of the year.</string>
+    <string name="takatsu_river_descrip">Touted as the cleanest river in Japan, the Takatsu River runs from deep in the mountains behind Masuda, all the way to the ocean.  Good for swimming in the summer, it will leave you feeling clean and refreshed.</string>
+    <string name="mito_onsen_descrip">A hot spring in the mountains of Japan along route 191.  Large indoor bath, with a small roofed outdoor bath.  Cheap, and has nice massage chairs.</string>
+    <string name="hikimi_gorge_descrip">A long gorge running through the mountains of Masuda.  Best avoided in the winter due to slippery conditions, but especially beautiful in the fall due to the many leaves.</string>
+    <string name="tsuchida_descrip">The most beautiful beach in Masuda.  About 15 minutes north of the inner city, sea barriers prevent strong waves, meaning a calm, saltwater pool that is perfectly clear.</string>
+    <string name="nanao_descrip">The ruins of Masuda\'s former castle, tucked away a mountain with a lot of stairs.  Has a nice view of the city.</string>
 
     <!--Shopping Locations-->
+    <string name="kinuya">Kinuya</string>
+    <string name="youme_town">Youme Town</string>
+    <string name="aeon">Aeon</string>
+    <string name="juntendo">Juntendo</string>
+    <string name="dorothy">Dorothy</string>
+    <string name="bunkado">Bunkado</string>
+    <string name="uniqlo">UNIQLO</string>
+    <string name="geo">GEO</string>
+    <string name="yamada_denki">Yamada Denki</string>
+    <string name="meirindo">Meirindo</string>
 
     <!--Shopping Descriptions-->
+    <string name="kinuya_descrip">Masuda\'s main grocery store chain.  24-hour branches abound, but the main branch near the middle of town has the most expansive selection.</string>
+    <string name="youme_town_descrip">A large mall-like chain store throughout Japan.  Has a grocery store, Baskin-Robbins, arcade, bookstore, dollar store and a number of other stores.</string>
+    <string name="aeon_descrip">A large mall-like chain store throughout Japan.  Has a grocery store, a dollar store, and various other clothes and home goods.  Dollar store is extremely good quality for the price.</string>
+    <string name="juntendo_descrip">The very first hardware store in Japan.  Also carries other home goods, including furniture, cleaning supplies, etc.  </string>
+    <string name="dorothy_descrip">The best bakery in Masuda.  Has a cafe open for lunch, with reasonably priced bread and sandwiches.  Other bread items are very high quality, freshly-baked daily.  Baguettes are extremely tasty.</string>
+    <string name="bunkado_descrip">School goods and assorted stationery store.  Also does printing services, such as business cards and the like.</string>
+    <string name="uniqlo_descrip">Chain clothing store throughout Japan.  Highly acclaimed and good quality clothing, at reasonable prices.  Airism and Heatech are recommended for summer and winter respectively.</string>
+    <string name="geo_descrip">A large media store.  Has cheap rentals available for movies, comics, albums, and more, as well as used games and other media for sale.</string>
+    <string name="yamada_denki_descrip">A large electronics store, has everything from games and computer goods to home appliances and TVs.  Does price-matching, if you can find it cheaper online.</string>
+    <string name="meirindo_descrip">A large bookstore near the main post office of Masuda.  One of the few in Masuda.</string>
 
     <!--Events-->
+    <string name="daffodil_park">To-on Daffodil Park</string>
+    <string name="super_kagura">Super Kagura Festival</string>
+    <string name="masuda_matsuri">Masuda Festival</string>
+    <string name="manyo_matsuri">Manyo Festival</string>
+    <string name="mito_fireflies">Mito Firefly Festival</string>
+    <string name="gionsai">Gion Festival</string>
+    <string name="suigosai">Masuda Water Festival</string>
+    <string name="hassaku_matsuri">Hassaku Festival</string>
+    <string name="airport_marathon">Hagi-Iwami Airport Marathon</string>
+    <string name="masuda_local_goods">Masuda Local Goods Festival</string>
 
     <!--Event Descriptions-->
+    <string name="daffodil_park_descrip">Thousands of daffodils planted by the local schoolchildren, blooming throughout February and March.  Has nice rocks to climb on, and overlooks the sea.  Can be muddy, and the daffodils fade after storms.</string>
+    <string name="super_kagura_descrip">Hosted by the Masuda branch of the Lion\'s Club, professional kagura groups from all over the region gather at the Grand Toit for a day.  Can come and go, full of amazing performances.</string>
+    <string name="masuda_matsuri_descrip">Masuda\'s biggest festival of the year.  Numerous booths, a parade, kagura, and other performances abound.  Takes up the entire street in front of the station for the day.</string>
+    <string name="manyo_matsuri_descrip">A festival at the Manyo Park.  Standard festival fare, as well as a number of performances, is capped off by hundreds of people working together to roll a sushi roll several hundred feet long.</string>
+    <string name="mito_fireflies_descrip">Near Mito Onsen, the fireflies come out over the rice fields and rivers.  Walking paths are illuminated by small lanterns. Accompanied by a small festival</string>
+    <string name="gionsai_descrip">The first festival of the summer, occurring near the Masuda River.  Includes a number of booths, and a fireworks display later in the evening.</string>
+    <string name="suigosai_descrip">Along the banks of the Takatsu River, Masuda\'s second biggest festival features a large fireworks show hosted by a number of different companies.  Boats with tens of lanterns and drums float around throughout.</string>
+    <string name="hassaku_matsuri_descrip">The last festival of the summer.  Features horseback archery throughout the day, and a large number of booths throughout the evening.  Kagura happens in front of Kakinomoto Shrine.</string>
+    <string name="airport_marathon_descrip">Masuda\'s claim to fame.  The only marathon event in Japan that allows you to run on an airport runway.  Has different length runs for everyone, capped off with a large festival at the finish line.</string>
+    <string name="masuda_local_goods_descrip">In the middle of the city, local companies and stores come together to display their goods.  One of the final festival-type events before winter.</string>
+
 </resources>
