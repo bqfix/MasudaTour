@@ -4,5 +4,8 @@
 
     <dimen name="picture_width">88dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="descrip_text_size">12sp</dimen>
+
 
 </resources>

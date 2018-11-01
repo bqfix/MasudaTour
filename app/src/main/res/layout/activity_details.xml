@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".DetailsActivity">
 
+    <ImageView
+        android:id="@+id/details_main_image"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dogs" />
+
+    <TextView
+        android:id="@+id/details_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_main_image" />
+
+    <TextView
+        android:id="@+id/details_descrip"
+        android:layout_width="368dp"
+        android:layout_height="355dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="A long description goes here and we talk about stuff and whatnot, because it was cut off on the previous screen.  You shouldn't be seeing this at runtime, please tell me how you broke the app."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/details_name"
+        app:layout_constraintStart_toStartOf="@+id/details_name"
+        app:layout_constraintTop_toBottomOf="@+id/details_name"
+        app:layout_constraintVertical_bias="0.0" />
+
 </android.support.constraint.ConstraintLayout>

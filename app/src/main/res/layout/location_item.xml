@@ -26,8 +26,8 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:layout_gravity="center"
-            android:textColor="#000"
-            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text_size"
             tools:text="Dog Cafe" />
 
 
@@ -40,7 +40,7 @@
                 android:layout_gravity="center"
                 android:lines="2"
                 android:ellipsize="end"
-                android:textSize="12sp"
+                android:textSize="@dimen/descrip_text_size"
                 tools:text="A lovely cafe to pet dogs and love them forever because they're so fuzzy and adorable and who doesn't love dogs srsly" />
 
 
