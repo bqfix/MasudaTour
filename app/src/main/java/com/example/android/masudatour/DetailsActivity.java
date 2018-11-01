@@ -3,8 +3,11 @@ package com.example.android.masudatour;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class DetailsActivity extends AppCompatActivity {
 
@@ -29,6 +32,12 @@ public class DetailsActivity extends AppCompatActivity {
 
         TextView detailsDescrip = (TextView) findViewById(R.id.details_descrip);
         detailsDescrip.setText(location.getLocationDescription());
+
+        TextView detailsAddress = (TextView) findViewById(R.id.details_address);
+        detailsAddress.setText(location.getAddress());
+
+        TextView detailsHours = (TextView) findViewById(R.id.details_hours);
+        detailsHours.setText(location.getHours());
 
     }
 }

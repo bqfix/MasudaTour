@@ -55,6 +55,7 @@ public class Location implements Parcelable {
     }
 
     //Parcelable logic
+
     @Override
     public int describeContents() {
         return 0;
@@ -65,15 +66,21 @@ public class Location implements Parcelable {
         dest.writeString(this.mLocationName);
         dest.writeString(this.mLocationDescription);
         dest.writeIntArray(this.mImageID);
+        dest.writeString(this.mAddress);
+        dest.writeString(this.mHours);
+        dest.writeString(this.mURL);
     }
 
     protected Location(Parcel in) {
         this.mLocationName = in.readString();
         this.mLocationDescription = in.readString();
         this.mImageID = in.createIntArray();
+        this.mAddress = in.readString();
+        this.mHours = in.readString();
+        this.mURL = in.readString();
     }
 
-    public static final Parcelable.Creator<Location> CREATOR = new Parcelable.Creator<Location>() {
+    public static final Creator<Location> CREATOR = new Creator<Location>() {
         @Override
         public Location createFromParcel(Parcel source) {
             return new Location(source);
