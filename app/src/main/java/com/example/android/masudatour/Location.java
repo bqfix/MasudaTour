@@ -8,16 +8,25 @@ public class Location implements Parcelable {
     private String mLocationName;
     private String mLocationDescription;
     private int[] mImageID;
+    private String mAddress;
+    private String mHours;
+    private String mURL;
 
     /** Constructor
      * @param locationName of the Location
      * @param description of the Location
      * @param imageID of the picture(s) to represent the Location
+     * @param address of the Location
+     * @param hours of operation of the Location
+     * @param url of the Location's site
      */
-    public Location(String locationName, String description, int[] imageID) {
+    public Location(String locationName, String description, int[] imageID, String address, String hours, String geoLocation, String url) {
         this.mLocationName = locationName;
         this.mLocationDescription = description;
         this.mImageID = imageID;
+        this.mAddress = address;
+        this.mHours = hours;
+        this.mURL = url;
     }
 
 
@@ -33,13 +42,24 @@ public class Location implements Parcelable {
         return mImageID;
     }
 
+    public String getAddress() {
+        return mAddress;
+    }
+
+    public String getHours() {
+        return mHours;
+    }
+
+    public String getmURL() {
+        return mURL;
+    }
+
+    //Parcelable logic
     @Override
     public int describeContents() {
         return 0;
     }
 
-
-    //Parcelable logic
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.mLocationName);
