@@ -13,7 +13,7 @@ public class LocationArrays {
 
     public static ArrayList<Location> getRestaurants(Context context) {
         return new ArrayList<Location>(Arrays.asList(
-                new Location(context.getString(R.string.sakuraya), context.getString(R.string.sakuraya_descrip), new int[] {R.drawable.dogs}, context.getString(R.string.sakuraya_address), context.getString(R.string.sakuraya_hours), context.getString(R.string.sakuraya_url)),
+                new Location(context.getString(R.string.sakuraya), context.getString(R.string.sakuraya_descrip), new int[] {R.drawable.dogs,R.drawable.dogs,R.drawable.dogs,R.drawable.dogs,R.drawable.dogs}, context.getString(R.string.sakuraya_address), context.getString(R.string.sakuraya_hours), context.getString(R.string.sakuraya_url)),
                 new Location(context.getString(R.string.ganesha), context.getString(R.string.ganesha_descrip), new int[] {R.drawable.dogs}, context.getString(R.string.ganesha_address), context.getString(R.string.ganesha_hours), context.getString(R.string.ganesha_url)),
                 new Location(context.getString(R.string.yagura), context.getString(R.string.yagura_descrip), new int[] {R.drawable.dogs}, context.getString(R.string.yagura_address), context.getString(R.string.yagura_hours), context.getString(R.string.yagura_url)),
                 new Location(context.getString(R.string.kakinoki), context.getString(R.string.kakinoki_descrip), new int[] {R.drawable.dogs}, context.getString(R.string.kakinoki_address), context.getString(R.string.kakinoki_hours), context.getString(R.string.kakinoki_url)),
