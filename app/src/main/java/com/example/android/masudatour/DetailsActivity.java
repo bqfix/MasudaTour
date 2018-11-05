@@ -54,10 +54,13 @@ public class DetailsActivity extends AppCompatActivity {
         });
 
         //Create RecyclerView to handle images
+
+        //Set Layout Manager
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.image_recycler);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         recyclerView.setLayoutManager(linearLayoutManager);
 
+        //Create and set instance of custom adapter
         RecyclerView.Adapter adapter = new ImagesRecyclerViewAdapter(location.getImageID());
         recyclerView.setAdapter(adapter);
 

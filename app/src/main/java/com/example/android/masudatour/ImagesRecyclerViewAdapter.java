@@ -8,10 +8,14 @@ import android.widget.ImageView;
 
 public class ImagesRecyclerViewAdapter extends RecyclerView.Adapter<ImagesRecyclerViewAdapter.ImageViewHolder>{
 
+    //Global variable to hold passed in array of image IDs
     private int[] mImages;
 
+    //In-line ViewHolder class to hold the ImageView to be used
     public static class ImageViewHolder extends RecyclerView.ViewHolder {
         public ImageView mImageView;
+
+        //ViewHolder Constructor
         public ImageViewHolder(ImageView imageView) {
             super(imageView);
             mImageView = imageView;
@@ -19,7 +23,7 @@ public class ImagesRecyclerViewAdapter extends RecyclerView.Adapter<ImagesRecycl
     }
 
 
-    //Constructor
+    //Constructor for Adapter
     public ImagesRecyclerViewAdapter(int[] images) {
         mImages = images;
     }
@@ -28,18 +32,21 @@ public class ImagesRecyclerViewAdapter extends RecyclerView.Adapter<ImagesRecycl
     @NonNull
     @Override
     public ImagesRecyclerViewAdapter.ImageViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-        ImageView image = (ImageView) LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.image_view, viewGroup, false);
+        //Inflate a new ImageView
+        ImageView imageView = (ImageView) LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.image_view, viewGroup, false);
 
-        ImageViewHolder imageViewHolder = new ImageViewHolder(image);
+        //Create a ViewHolder using the inflated ImageView
+        ImageViewHolder imageViewHolder = new ImageViewHolder(imageView);
         return imageViewHolder;
     }
 
-    //Replace the contents of a view
+    //Replace the contents of an existing ViewHolder's view by calling from the list of image IDs passed in on Adapter creation
     @Override
-    public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
-        holder.mImageView.setImageResource(mImages[position]);
+    public void onBindViewHolder(@NonNull ImageViewHolder imageViewHolder, int position) {
+        imageViewHolder.mImageView.setImageResource(mImages[position]);
     }
 
+    //Length of RecyclerView should be equal to the length of the passed-in array
     @Override
     public int getItemCount() {
         return mImages.length;
