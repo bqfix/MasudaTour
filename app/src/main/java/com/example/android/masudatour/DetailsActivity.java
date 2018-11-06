@@ -60,9 +60,18 @@ public class DetailsActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         recyclerView.setLayoutManager(linearLayoutManager);
 
+        final ImageView zoomedImage = (ImageView) findViewById(R.id.zoomed_image);
         //Create and set instance of custom adapter
-        RecyclerView.Adapter adapter = new ImagesRecyclerViewAdapter(location.getImageID());
+        RecyclerView.Adapter adapter = new ImagesRecyclerViewAdapter(location.getImageID(), zoomedImage);
         recyclerView.setAdapter(adapter);
+
+        //Set on-click listener for zoomed image
+        zoomedImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                zoomedImage.setVisibility(View.INVISIBLE);
+            }
+        });
 
     }
 }

@@ -3,99 +3,114 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".DetailsActivity">
-
-        <ImageView
-            android:id="@+id/details_main_image"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/dogs" />
-
-        <TextView
-            android:id="@+id/details_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/title_text_size"
-            tools:text="Name" />
-
-        <TextView
-            android:id="@+id/details_descrip"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/details_name"
-            tools:text="A long description goes here and we talk about stuff and whatnot, because it was cut off on the previous screen.  You shouldn't be seeing this at runtime, please tell me how you broke the app." />
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginRight="8dp">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".DetailsActivity">
+
+            <ImageView
+                android:id="@+id/details_main_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/dogs" />
 
             <TextView
-                android:id="@+id/details_address"
-                android:layout_width="0dp"
+                android:id="@+id/details_name"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_marginTop="8dp"
                 android:gravity="center_horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.2"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/details_descrip"
-                tools:text="Location Address" />
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/title_text_size"
+                tools:text="Name" />
 
-            <View
-                android:layout_width="1dp"
-                android:layout_height="match_parent"
+            <TextView
+                android:id="@+id/details_descrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/details_name"
+                tools:text="A long description goes here and we talk about stuff and whatnot, because it was cut off on the previous screen.  You shouldn't be seeing this at runtime, please tell me how you broke the app." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp">
+
+                <TextView
+                    android:id="@+id/details_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/details_descrip"
+                    tools:text="Location Address" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/details_hours"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintBottom_toBottomOf="@+id/details_address"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.8"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/details_address"
+                    tools:text="Hours of Operation" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/details_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:background="@android:color/darker_gray" />
+                android:layout_marginTop="8dp"
+                android:text="Website" />
 
-            <TextView
-                android:id="@+id/details_hours"
-                android:layout_width="0dp"
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/image_recycler"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_horizontal"
-                app:layout_constraintBottom_toBottomOf="@+id/details_address"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.8"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/details_address"
-                tools:text="Hours of Operation" />
-
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:nestedScrollingEnabled="false"
+                android:scrollbars="horizontal" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/details_website"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
-            android:text="Website" />
+        <!-- Invisible ImageView for showing zoomed images on click-->
+        <ImageView
+            android:id="@+id/zoomed_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:visibility="invisible" />
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/image_recycler"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginBottom="8dp"
-            android:nestedScrollingEnabled="false"
-            android:scrollbars="horizontal" />
-    </LinearLayout>
+    </FrameLayout>
 
 </android.support.v4.widget.NestedScrollView>
