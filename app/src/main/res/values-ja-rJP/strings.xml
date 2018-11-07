@@ -174,4 +174,5 @@
     <string name="about_activity">詳細</string>
     <string name="location_activity">場所とイベント</string>
     <string name="details_activity">内容</string>
+    <string name="website">ウェブサイト</string>
 </resources>

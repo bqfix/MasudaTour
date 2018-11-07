@@ -22,6 +22,9 @@
     <string name="about_intro">Hey, thanks for looking at my app.\nThis has been a project dedicated to the city in Japan that I lived in for five years, that I hold very dear to my heart.\nI also took the opportunity to try a lot of new things and learn new concepts, so there may be some buggy or inefficient code.  Apologies.</string>
     <string name="about_urls">Images were accessed from the following sites:\nhttps://tabelog.com\nhttp://www.google.com/maps\nhttp://www.facebook.com\nhttp://ohata.jp/manyou\nhttps://www.pref.shimane.lg.jp\nhttps://www.wikipedia.org\nhttp://www.grandtoit.jp\nhttp://www.all-iwami.com\nhttp://mito-onsen.com/\nhttp://www.kinuya.co.jp\nhttp://www.iwami.or.jp\nhttps://www.city.masuda.lg.jp\nhttp://www.airport-marathon.jp/\nhttp://mgf.nomaki.jp/</string>
 
+    <!-- Details Page -->
+    <string name="website">Website</string>
+
     <!--Restaurant Locations-->
     <string name="sakuraya">Sakuraya</string>
     <string name="ganesha">Ganesha</string>
