@@ -19,8 +19,11 @@
         <activity
             android:name=".LocationActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".DetailsActivity"
-            android:parentActivityName=".LocationActivity"></activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:parentActivityName=".LocationActivity" />
+        <activity android:name=".AboutActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

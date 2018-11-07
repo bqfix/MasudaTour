@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_sightseeing: specificLocationIntent.putExtra("position", 1); break;
                     case R.id.nav_shopping: specificLocationIntent.putExtra("position", 2); break;
                     case R.id.nav_events: specificLocationIntent.putExtra("position", 3); break;
+                    case R.id.nav_about: Intent aboutIntent = new Intent(MainActivity.this,AboutActivity.class); startActivity(aboutIntent); return true;
                 }
 
                 startActivity(specificLocationIntent);
