@@ -29,7 +29,7 @@ public class LocationActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         //Create an adapter for each page
-        FragmentPagerAdapter fragmentPagerAdapter = new LocationFragmentPagerAdapter(getSupportFragmentManager());
+        FragmentPagerAdapter fragmentPagerAdapter = new LocationFragmentPagerAdapter(getSupportFragmentManager(),this);
 
         //Set the adapter per page
         viewPager.setAdapter(fragmentPagerAdapter);

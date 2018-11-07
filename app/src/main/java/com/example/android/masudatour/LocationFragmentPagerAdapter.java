@@ -1,5 +1,6 @@
 package com.example.android.masudatour;
 
+import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -7,8 +8,11 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class LocationFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    public LocationFragmentPagerAdapter(FragmentManager fm) {
+    private Context mContext;
+
+    public LocationFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        mContext = context;
     }
 
     //Instantiate fragments, passed arguments denote which array to use
@@ -27,10 +31,10 @@ public class LocationFragmentPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
-            case 0: return "Restaurants";
-            case 1: return "Sightseeing";
-            case 2: return "Shopping";
-            case 3: return "Events";
+            case 0: return mContext.getString(R.string.restaurants);
+            case 1: return mContext.getString(R.string.sightseeing);
+            case 2: return mContext.getString(R.string.shopping);
+            case 3: return mContext.getString(R.string.events);
             default: return null;
         }
     }

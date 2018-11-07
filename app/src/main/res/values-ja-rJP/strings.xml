@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">益田ツアー</string>
+    <string name="welcome">益田へようこそ！</string>
+    <string name="welcome_descrip">日本海の海岸と山に挟まれている小さな街。楽しめることがいっぱい！下押してみましょう！</string>
+    <string name="enter">入る</string>
+    <string name="restaurants">食事</string>
+    <string name="sightseeing">観光</string>
+    <string name="shopping">買い物</string>
+    <string name="events">イベント</string>
+    <string name="about">詳細</string>
+    <string name="about_intro">アプリをみてくれてありがとう。私が五年間過ごした益田市への思いをこめて作りました。同時に新しいことなど習ったり試してみたりしてしまいましたから、バグや不経済なことなどがある可能性もあるのです。もうしわけありません。</string>
+    <string name="about_urls">以下のサイトによりイメージを使いました：\\nhttps://tabelog.com\\nhttp://www.google.com/maps\\nhttp://www.facebook.com\\nhttp://ohata.jp/manyou\\nhttps://www.pref.shimane.lg.jp\\nhttps://www.wikipedia.org\\nhttp://www.grandtoit.jp\\nhttp://www.all-iwami.com\\nhttp://mito-onsen.com/\\nhttp://www.kinuya.co.jp\\nhttp://www.iwami.or.jp\\nhttps://www.city.masuda.lg.jp\\nhttp://www.airport-marathon.jp/\\nhttp://mgf.nomaki.jp/</string>
+    <string name="sakuraya">さくらや</string>
+    <string name="ganesha">ガネーシャ</string>
+    <string name="yagura">やぐら</string>
+    <string name="kakinoki">柿の木</string>
+    <string name="saku">サク</string>
+    <string name="saku_yakiniku">やきにくバーサク</string>
+    <string name="yasumasa">やすまさ回転寿司</string>
+    <string name="tenshin">天心</string>
+    <string name="kikkouya_udon">亀甲屋うどん</string>
+    <string name="meiju">明珠</string>
+    <string name="sakuraya_descrip">山の中のお好み焼き屋さん。大きくて、安くて、おなかはぜったいいっぱいになる。広島で習ったマスターがおる。</string>
+    <string name="ganesha_descrip">益田のたった一つのインドカレー屋。スパイスレベル選べるし、選択も半端ありません。店員も明るくて、ナンお変わり自由。</string>
+    <string name="yagura_descrip">益田駅の近くの小さい炉辺焼き屋。二人のおばあさんたちが益田で一番おいしいもの作っています。肉と魚があふれてる。鳥南蛮と焼きそばがおすすめ。</string>
+    <string name="kakinoki_descrip">景色のいいシーサイドのカフェ。やや高いもので量が少々少ないけど、雰囲気は絶品だ。デートやランチにちょうどいい。</string>
+</resources>
