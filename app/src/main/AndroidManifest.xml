@@ -18,12 +18,16 @@
         </activity>
         <activity
             android:name=".LocationActivity"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:label="@string/location_activity"/>
         <activity
             android:name=".DetailsActivity"
-            android:parentActivityName=".LocationActivity" />
+            android:parentActivityName=".LocationActivity"
+            android:label="@string/details_activity"
+            />
         <activity android:name=".AboutActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity"
+            android:label="@string/about_activity"></activity>
     </application>
 
 </manifest>

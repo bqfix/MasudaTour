@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/song_item_views"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground">
 
     <ImageView
         android:id="@+id/location_image"
@@ -43,6 +44,7 @@
                 android:paddingRight="8dp"
                 android:ellipsize="end"
                 android:textSize="@dimen/descrip_text_size"
+                android:textColor="@android:color/black"
                 tools:text="A lovely cafe to pet dogs and love them forever because they're so fuzzy and adorable and who doesn't love dogs srsly" />
 
 

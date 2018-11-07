@@ -171,4 +171,7 @@
     <string name="geo_hours">9時‐24時</string>
     <string name="yamada_denki_hours">10時半‐21時</string>
     <string name="meirindo_hours">10時‐22時</string>
+    <string name="about_activity">詳細</string>
+    <string name="location_activity">場所とイベント</string>
+    <string name="details_activity">内容</string>
 </resources>

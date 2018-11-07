@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:background="@color/colorBackground">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -40,6 +41,7 @@
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp"
+                android:textColor="@android:color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/details_name"
@@ -62,7 +64,8 @@
                     app:layout_constraintHorizontal_bias="0.2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/details_descrip"
-                    tools:text="Location Address" />
+                    tools:text="Location Address"
+                    android:textColor="@android:color/black"/>
 
                 <View
                     android:layout_width="1dp"
@@ -81,7 +84,8 @@
                     app:layout_constraintHorizontal_bias="0.8"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/details_address"
-                    tools:text="Hours of Operation" />
+                    tools:text="Hours of Operation"
+                    android:textColor="@android:color/black"/>
 
             </LinearLayout>
 

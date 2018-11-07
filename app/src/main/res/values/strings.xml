@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Masuda Tour</string>
 
+    <!-- Activity Titles -->
+    <string name="about_activity">About</string>
+    <string name="details_activity">Details</string>
+    <string name="location_activity">Locations and Events</string>
+
     <!-- Landing Page -->
     <string name="welcome">Welcome to Masuda!</string>
     <string name="welcome_descrip">A small town nestled along the coast of Japan and surrounded by mountains.\n\nPlenty to see and enjoy!\n\nPress below to enter and explore!</string>
