@@ -54,7 +54,7 @@
     <string name="meiju_address">Japan, Shimane-ken, Masuda-shi, Ekimaechō, 10-20</string>
 
     <!--Restaurant Hours-->
-    <string name="sakuraya_hours">Wednesday-Friday\n11AM - 2PM\n5-7:30PM</string>
+    <string name="sakuraya_hours">Wednesday-Sunday\n11AM - 2PM\n5-7:30PM</string>
     <string name="ganesha_hours">11AM-12:45PM\n5-9:45PM</string>
     <string name="yagura_hours">Tuesday-Sunday\n6PM-12AM</string>
     <string name="kakinoki_hours">Monday-Saturday\n11AM-21:30PM</string>
@@ -67,16 +67,16 @@
 
 
     <!--Restaurant URL-->
-    <string name="sakuraya_url">https://tabelog.com/shimane/A3204/A320401/32000321/</string>
-    <string name="ganesha_url">https://tabelog.com/shimane/A3204/A320401/32005294/</string>
-    <string name="yagura_url">https://tabelog.com/shimane/A3204/A320401/32000493/</string>
-    <string name="kakinoki_url">https://tabelog.com/shimane/A3204/A320401/32004586/</string>
-    <string name="saku_url">https://tabelog.com/shimane/A3204/A320401/32002444/</string>
-    <string name="saku_yakiniku_url">https://tabelog.com/shimane/A3204/A320401/32005179/</string>
-    <string name="yasumasa_url">https://tabelog.com/shimane/A3204/A320401/32000710/</string>
-    <string name="tenshin_url">https://tabelog.com/shimane/A3204/A320401/32001922/</string>
-    <string name="kikkouya_udon_url">https://tabelog.com/shimane/A3204/A320401/32003713/</string>
-    <string name="meiju_url">https://tabelog.com/shimane/A3204/A320401/32004672/</string>
+    <string name="sakuraya_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32000321/</string>
+    <string name="ganesha_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32005294/</string>
+    <string name="yagura_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32000493/</string>
+    <string name="kakinoki_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32004586/</string>
+    <string name="saku_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32002444/</string>
+    <string name="saku_yakiniku_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32005179/</string>
+    <string name="yasumasa_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32000710/</string>
+    <string name="tenshin_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32001922/</string>
+    <string name="kikkouya_udon_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32003713/</string>
+    <string name="meiju_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32004672/</string>
 
 
     <!--Sightseeing Locations-->
@@ -105,7 +105,7 @@
 
     <!--Sightseeing Addresses-->
     <string name="manyo_address">Japan, 698-0041 Shimane-ken, Masuda-shi, Takatsuchō</string>
-    <string name="kakinomoto_address">Japan, 698-0041 Shimane-ken, Masuda-shi, 2612 1</string>
+    <string name="kakinomoto_address">Japan, 698-0041 Shimane-ken, Masuda-shi,Takatsucho 2612 1</string>
     <string name="banryu_address">Japan, 698-0041 Shimane-ken, Masuda-shi, Takatsuchō</string>
     <string name="grand_toit_address">5-15 Ariakecho, Masuda, Shimane Prefecture 698-0022, Japan</string>
     <string name="ikoji_address">4-29 Somebachō, Masuda-shi, Shimane-ken 698-0011, Japan</string>
@@ -128,16 +128,16 @@
     <string name="nanao_hours">Open 24 hours</string>
 
     <!--Sightseeing URL-->
-    <string name="manyo_url">http://ohata.jp/manyou/</string>
-    <string name="kakinomoto_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=217</string>
-    <string name="banryu_url">https://www.pref.shimane.lg.jp/infra/nature/shizen/shimane/shimane_kouen/kenritu-shizen-koen/banryuko/</string>
-    <string name="grand_toit_url">http://www.grandtoit.jp/</string>
-    <string name="ikoji_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=26</string>
-    <string name="takatsu_river_url">https://www.kankou-shimane.com/mag/8019.html</string>
-    <string name="mito_onsen_url">http://mito-onsen.com/</string>
-    <string name="hikimi_gorge_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=58</string>
-    <string name="tsuchida_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=329</string>
-    <string name="nanao_url">https://kojodan.jp/castle/991/</string>
+    <string name="manyo_url" translatable="false">http://ohata.jp/manyou/</string>
+    <string name="kakinomoto_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=217</string>
+    <string name="banryu_url" translatable="false">https://www.pref.shimane.lg.jp/infra/nature/shizen/shimane/shimane_kouen/kenritu-shizen-koen/banryuko/</string>
+    <string name="grand_toit_url" translatable="false">http://www.grandtoit.jp/</string>
+    <string name="ikoji_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=26</string>
+    <string name="takatsu_river_url" translatable="false">https://www.kankou-shimane.com/mag/8019.html</string>
+    <string name="mito_onsen_url" translatable="false">http://mito-onsen.com/</string>
+    <string name="hikimi_gorge_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=58</string>
+    <string name="tsuchida_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=329</string>
+    <string name="nanao_url" translatable="false">https://kojodan.jp/castle/991/</string>
 
 
     <!--Shopping Locations-->
@@ -189,16 +189,16 @@
     <string name="meirindo_hours">10AM-10PM</string>
 
     <!--Shopping URLs-->
-    <string name="kinuya_url">http://www.kinuya.co.jp/shop/index.htm</string>
-    <string name="youme_town_url">https://www.izumi.jp/tenpo/masuda/</string>
-    <string name="aeon_url">https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E7%9B%8A%E7%94%B0%E5%BA%97/</string>
-    <string name="juntendo_url">http://www.juntendo.co.jp/</string>
-    <string name="dorothy_url">https://tabelog.com/shimane/A3204/A320401/32002472/</string>
-    <string name="bunkado_url">http://ftp.bunkadoweb.co.jp/news/news_0625.html</string>
-    <string name="uniqlo_url">https://www.uniqlo.com/jp/shop/info/#10101036</string>
-    <string name="geo_url">https://geo-online.co.jp/store/02420/</string>
-    <string name="yamada_denki_url">http://www.yamada-denki.jp/store/contents/?d=1186</string>
-    <string name="meirindo_url">http://www.meirindo.co.jp/store/shimane/masuda.html</string>
+    <string name="kinuya_url" translatable="false">http://www.kinuya.co.jp/shop/index.htm</string>
+    <string name="youme_town_url" translatable="false">https://www.izumi.jp/tenpo/masuda/</string>
+    <string name="aeon_url" translatable="false">https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E7%9B%8A%E7%94%B0%E5%BA%97/</string>
+    <string name="juntendo_url" translatable="false">http://www.juntendo.co.jp/</string>
+    <string name="dorothy_url" translatable="false">https://tabelog.com/shimane/A3204/A320401/32002472/</string>
+    <string name="bunkado_url" translatable="false">http://ftp.bunkadoweb.co.jp/news/news_0625.html</string>
+    <string name="uniqlo_url" translatable="false">https://www.uniqlo.com/jp/shop/info/#10101036</string>
+    <string name="geo_url" translatable="false">https://geo-online.co.jp/store/02420/</string>
+    <string name="yamada_denki_url" translatable="false">http://www.yamada-denki.jp/store/contents/?d=1186</string>
+    <string name="meirindo_url" translatable="false">http://www.meirindo.co.jp/store/shimane/masuda.html</string>
 
 
     <!--Events-->
@@ -250,15 +250,15 @@
     <string name="masuda_local_goods_hours">Early November</string>
 
     <!--Event URLs-->
-    <string name="daffodil_park_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=24</string>
-    <string name="super_kagura_url">http://www.iwami.or.jp/masudalc/activity/kagura/10.html</string>
-    <string name="masuda_matsuri_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=222&amp;cat_id=9</string>
-    <string name="manyo_matsuri_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=225</string>
-    <string name="mito_fireflies_url">http://mitocho-kankou.jp/page2139/</string>
-    <string name="gionsai_url">http://mgf.nomaki.jp/</string>
-    <string name="suigosai_url">https://sp.jorudan.co.jp/hanabi/spot_87429.html</string>
-    <string name="hassaku_matsuri_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=236</string>
-    <string name="airport_marathon_url">http://www.airport-marathon.jp/</string>
-    <string name="masuda_local_goods_url">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=231</string>
+    <string name="daffodil_park_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=24</string>
+    <string name="super_kagura_url" translatable="false">http://www.iwami.or.jp/masudalc/activity/kagura/10.html</string>
+    <string name="masuda_matsuri_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=222&amp;cat_id=9</string>
+    <string name="manyo_matsuri_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=225</string>
+    <string name="mito_fireflies_url" translatable="false">http://mitocho-kankou.jp/page2139/</string>
+    <string name="gionsai_url" translatable="false">http://mgf.nomaki.jp/</string>
+    <string name="suigosai_url" translatable="false">https://sp.jorudan.co.jp/hanabi/spot_87429.html</string>
+    <string name="hassaku_matsuri_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=236</string>
+    <string name="airport_marathon_url" translatable="false">http://www.airport-marathon.jp/</string>
+    <string name="masuda_local_goods_url" translatable="false">http://www.all-iwami.com/modules/guide/index.php?action=SpotView&amp;spot_id=231</string>
 
 </resources>
