@@ -18,6 +18,13 @@ public class LocationActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_location);
 
+        //Check if a page position was sent, set position to that if exists
+        int position = 0;
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            position = extras.getInt("position");
+        }
+
         //Set ViewPager
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
@@ -30,6 +37,8 @@ public class LocationActivity extends AppCompatActivity {
         //Setup Tab Layout with ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
+
+        viewPager.setCurrentItem(position);
 
 
     }

@@ -6,6 +6,13 @@
     <string name="welcome_descrip">A small town nestled along the coast of Japan and surrounded by mountains.\n\nPlenty to see and enjoy!\n\nPress below to enter and explore!</string>
     <string name="enter">Enter</string>
 
+    <!-- Navigation Drawer-->
+    <string name="restaurants">Restaurant</string>
+    <string name="sightseeing">Sightseeing</string>
+    <string name="shopping">Shopping</string>
+    <string name="events">Events</string>
+    <string name="about">About</string>
+
     <!--Restaurant Locations-->
     <string name="sakuraya">Sakuraya</string>
     <string name="ganesha">Ganesha</string>
